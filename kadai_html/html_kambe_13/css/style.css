@@ -1,0 +1,425 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+html {
+    font-size: 80%%
+}
+
+body{
+    color: #333333;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    width: 1400px;
+    text-align:center;
+    margin-left:auto;margin-right:auto;
+    text-align:left;
+    line-height:1.5;
+}
+.wrapper{
+    max-width:1140px;
+    margin:auto;
+}
+img{
+    max-width:;
+    height:auto;
+}
+.text-center{
+    text-align: center;
+    margin: auto;
+
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul.header_nav {
+    display: flex;
+}
+.header_nav li{
+    margin-left: 40px;
+    font-size: 21px;
+        padding: 50px 50px 50px 0;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #222222;
+    }
+.mainvisual{
+    margin-top: 20px;
+    height: 400px;
+    background: url("https://img.gifmagazine.net/gifmagazine/images/41804/original.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainvisual_title{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+.mainvisual_subtitle{
+font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+.about_title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    padding-top: 60px;
+}
+.about_subtitle{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    padding-bottom: 60px;
+}
+.about_texta{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.about_textb{
+    text-align: center;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+.about_textc{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.about_textd{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.imgbox{
+    max-width: auto;
+    margin: auto; 
+}
+.imgbox_pics{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.course_title{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+}
+.course_text{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+    line-height: 1.5;
+    padding-bottom: 60px;
+}
+.course-detail{
+    display:flex;
+    align-items: center;
+}
+.course-detail:nth-child(2){
+    flex-direction: row-reverse;
+}
+.exp-box:nth-child(2){
+    flex-direction: row-reverse;
+}
+.exp-box_container{
+    max-width: 100%;
+    width: 79.6%;
+    margin-left: auto;
+    margin-right: 0px;
+    padding-right: 48px;
+}
+.course-detail dt{
+    width: 50%;
+}
+.course-detail dd{
+    width: 50%;
+    margin-left: auto; 
+}
+.course-title{
+    width: 522px;
+    margin-left: 48px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+.course-exp{
+    width: 522px;
+    margin-left: 48px;
+}
+.course-exp.hidari{
+    max-width: 100%;
+}
+.contents{
+    margin-bottom: 64px;
+    background-color: #cacaca;
+}
+.news_title{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+}
+.news_subtitle{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+}
+.news_list{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+}
+.newsbox{
+    width: 300px;
+    margin-left:32px;
+}
+.news{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;  
+}
+.neasbox{
+    width: 25%;
+}
+.newsbx_item_img{
+    margin-bottom: 32px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.newsbx_item_img img{
+    width: 100%;
+}
+.newsbx_item_day{
+    text-align: left;
+    margin-bottom: 24px;
+}
+.newsbx_item_text{
+    margin-bottom:56px;
+    text-align: left;
+}
+.btn {
+    display:block;
+    width: 300px;
+    font-size: 18px;
+    padding: 15px 0;
+    background-color: #ffd61a;
+    color:#fff;
+    text-align: center;
+    margin:auto;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+.btn:hover{
+    opacity:0.6;
+}
+#ACCESS{
+    padding-top: 60px;
+}
+.ACCESS-div{
+    background-color: #fafafa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.access_title{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+}
+.access_subtitle{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #222222;
+    padding-bottom: 60px;
+}
+    .map{
+    max-width: 100%;
+    padding-bottom: 500px;
+    position: relative;
+    }
+    iframe {
+        position: absolute;
+    }
+    .access-wrapper{
+        width: 408px;
+        margin: auto;
+        padding-top: 64px;
+    }
+    .access-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 408px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 0 40px;
+        font-size: 1.6rem;
+        background-color:#fafafa;
+    }
+    .access-container dd{
+        text-align: center;
+    }
+    .access-title{
+        width: 98px;
+        padding: 0 0 22px 0;
+        margin: 0 0 0 20px;
+        font-weight: normal;
+        text-align: left;
+    }
+    .access-title.main{
+        text-align: left;
+    }
+    .access-item{
+        width: 290px;
+        padding: 0 0 18px 0;
+        text-align: left;
+    }
+    .access-item.address{
+    text-align: center;
+    }
+    .mail{
+        padding: 0;
+    }
+
+
+.contact_title{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+}
+.contact_subtitle{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #222222;
+}
+.contact_texta{
+    padding-top: 60px;
+    text-align: center;
+    line-height: 1.5;
+}
+.contact_textb{
+    padding-top: 30px;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+.form{
+    width: 600px;
+    margin:auto;
+}
+.form_inner{
+    display: flexbox;
+    flex-wrap: wrap;
+    margin-bottom: 0 0 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.form_title{
+    padding-top: 8px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+.form_title.check_radio{
+    padding: 0;
+}
+.form_item{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.form_parts{
+    box-sizing:border-box;
+    width: 328px;
+    height:36px;
+    border:solid 0.5px #cacaca;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    margin:8px 64px 8px 8px;
+    border-color:#cacaca;
+    padding:0 0 0 10px;
+}
+.form_textarea{
+    box-sizing:border-box;
+    width: 328px;
+    height:108px;
+    border:solid 0.5px #cacaca;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    margin:8px 64px 8px 8px;
+}
+.form_label{
+    margin: auto;
+    font-size: 15px;
+    position: relative;
+    top: 1px;
+}
+.form_title,
+.form_item{
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.form_title{
+    text-align: left;
+    width: 30%;
+    background-color: #eee;
+}
+.form_item{
+    width: 70%;
+}
+.sub{
+    padding-top: 30px;
+}
+.submit {
+    display:block;
+    width: 180px;
+    font-size: 18px;
+    background-color: #ffd61a;
+    color:#fff;
+    text-align: center;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+.submit:hover{
+    opacity:0.6;
+}
+input[type*="checkbox"]:checked{
+    background-color: yellow;
+}
+.footer{
+    width: 100%;
+    background-color: #707070;
+    padding: 24px 0px;
+    font-size: 16px;
+    text-align: center;
+    color:white;
+    margin-top: 120px;
+}
